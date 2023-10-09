@@ -1,4 +1,4 @@
-fetch("https://rickandmortyapi.com/api/character/")
+tsfetch("https://rickandmortyapi.com/api/character/")
 	.then((response) => {
 		return response.json();
 	})
